@@ -3,7 +3,7 @@ Name of Quantlet: XFGVaR_dcc_backtest
 
 Published in: has not been published
 
-Description: ¡®Uses DCC model to estimate the variance covariance matrix of returns of 10 Internet and Software stocks in S&P500 (time period: 2015/05/01-2016/04/25, rolling window of 200 days), computes 95% and 99% VaR of a value weighed portfolio containing these stocks from estimation results. Uses conditional (Christoffersen) coverage tests to do the backtest. The test results and estimated VaR can be seen in the report.¡¯
+Description: 'Uses DCC model to estimate the variance covariance matrix of returns of 10 Internet and Software stocks in S&P500 (time period: 2015/05/01-2016/04/25, rolling window of 200 days), computes 95% and 99% VaR of a value weighed portfolio containing these stocks from estimation results. Uses conditional (Christoffersen) coverage tests to do the backtest. The test results and estimated VaR can be seen in the report.'
 
 Keywords: VaR, garch, plot, graphical representation, time-series, volatility, risk
 aversion, risk measure
@@ -14,4 +14,4 @@ Submitted:  Mon, May 30 2016 by Jinhua Yang
 
 Datafile: stock10.csv
 
-Example: ¡®The plot illustrates the portfolio profit and loss (P&L) and estimated 95%VaR and 99%VaR¡¯
+Example: 'The plot illustrates the portfolio profit and loss (P&L) and estimated 95%VaR and 99%VaR'
