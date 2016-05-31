@@ -100,6 +100,7 @@ ind_test = function(V) {
     hat_p = (V_01 + V_11)/(V_00 + V_01 + V_10 + V_11)
     a = (1 - hat_p)^(V_00 + V_10) * (hat_p)^(V_01 + V_11)
     b = (p_00)^(V_00) * (p_01)^(V_01) * (p_10)^(V_10) * p_11^(V_11)
+    #Note: if p_11 and V_11 both are 0, then p_11^(V_11)=1
     return(-2 * log(a/b))
 }
 
