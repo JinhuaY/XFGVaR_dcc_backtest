@@ -14,7 +14,7 @@ W = matrix(unlist(price[1, ]/value[1, ]), nrow = n, ncol = 1)
 alpha95 = 1.65
 alpha99 = 2.33
 
-return = log(price[2, ]/price[1, ]) * 100
+return = log(price[2, ]/price[1, ])
 for (j in 2:(T - 1)) {
     return[j, ] = log(price[j + 1, ]/price[j, ])
 }
