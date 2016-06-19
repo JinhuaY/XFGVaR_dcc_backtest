@@ -5,7 +5,7 @@
 
 ```yaml
 
-Name of Quantlet: XFGVaR_dcc_backtest
+Name of QuantLet: XFGVaR_dcc_backtest
 
 Published in: has not been published
 
@@ -20,8 +20,6 @@ Keywords: 'VaR, garch, plot, graphical representation, time-series, volatility,
 risk aversion, risk measure'
 
 Author: Jinhua Yang
-
-Submitted:  Mon, May 30 2016 by Jinhua Yang
 
 Datafile: stock10.csv
 
